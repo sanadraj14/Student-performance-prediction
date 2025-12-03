@@ -66,7 +66,7 @@ with col1:
     prev_score = st.number_input("📝 Previous Score", 0, 100, 60)
 
 with col2:
-    parent_edu = st.selectbox("🎓 Parent Education Level", [0, 1, 2, 3])
+    parent_edu = st.selectbox("🎓 Parent Education Level", [0, 1, 2, 3,4])
     sleep = st.slider("😴 Sleep Hours", 0, 12, 7)
     extra = st.selectbox("📚 Extra Classes", [0, 1])
 
